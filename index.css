@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 70%;
+    margin: auto;
+    box-shadow: 0 0 12px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+}
+.box{
+    padding:0 5px;
+    background-color: blue;
+    margin-right: 5px;
+}
+.name{
+    font-size: 15px;
+}
+.text{
+    color: gray;
+}
+.nav-link a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    font-size: 10px;
+}
+.content{
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+.column1{
+    width: 40%;
+    height: 400px;
+    background-color: rgb(173, 158, 138);
+}
+.column2{
+    width: 60%;
+}
+.content2{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 90px;
+    right: 200px;
+    
+}
+.card{
+    width: 45%;
+    background-color: rgb(245, 234, 217);
+    text-align: center;
+    padding-top: 20px;
+    box-shadow: 0 0 12px gray;
+}
+h2{
+    padding: 20px 0;
+    
+}
+.title{
+    padding-bottom: 20px;
+}
+.card img{
+    
+    border-radius: 50px;
+}
+.links{
+    background-color: white;
+    /* padding: 5px; */
+}
+.links img{
+    padding: 5px;
+}
+h4{
+    color: gray;
+}
+.aboutme{
+    width: 55%;
+    /* background-color: rgb(250, 244, 238); */
+    padding-left: 20px;
+    padding-top: 20px;
+}
+h6{
+    padding: 10px 0;
+    font-size: 12px;
+}
+.resume{
+    padding: 5px 15px;
+    border-radius: 30px;
+    border:none;
+    background-color: rgb(0, 115, 255);
+    color: white;
+    font-size: 8px;
+}
+.projects{
+    padding: 4px 15px;
+    border-radius: 30px;
+    border:1px solid black;
+    background-color: white;
+    color: black;
+    font-size: 8px; 
+    margin-bottom: 30px;
+}
+p a{
+    text-decoration: none;
+    color: black;
+  
+}
+.paragraph{
+   padding-bottom: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.footer2{
+    display: flex;
+    
+}
+.footer2 div{
+    padding-right: 30px;
+    text-align: center;
+}
+.call h5{
+    margin-bottom: 5px;
+}
+.write h5{
+    margin-bottom: 5px;
+}
+.link img{
+    position: relative;
+    left: 10px;
+    margin-left:5px;
+}
+
+
+@media screen and (max-width: 696px){
+    .container{
+        display: block;
+        width: 80%;
+    }
+    .header{
+        display: block;
+    }
+    .name{
+        font-size: 17px;
+    }
+    .logo h5{
+        font-size: 11px;
+    }
+    .nav-link a{
+        display:block;
+        padding-top: 20px;
+        /* font-size: 8px; */
+    }
+    .content{
+        display: block;
+        
+    }
+    .column1{
+        height: 320px;
+    }
+    .column2{
+        height: 250px;
+    }
+    .content2{
+        display: block;
+        width: 100%;
+        position: relative;
+        top: -280px;
+        left: 50px;
+    }
+    .card{
+        width: 100%;
+    }
+    .aboutme{
+        width: 100%;
+        padding-left:0 ;
+    }
+    .footer{
+        display: block;
+    }
+    .footer1{
+        padding-left: 20px;
+    }
+    .footer2{
+        display:block;
+        padding: 20px;
+    }
+    .footer2 div{
+        text-align: left;
+    }
+    .call{
+        padding-top: 20px;
+    }
+    .call p{
+        padding-bottom: 10px;
+
+    }
+    .write p{
+        padding-bottom: 10px;
+    }
+    .link img{
+        position: relative;
+        left: 0px;
+        margin-left:0px;
+    }
+}
+
